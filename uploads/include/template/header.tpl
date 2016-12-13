@@ -8,19 +8,18 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <link rel="stylesheet" href="<{$smarty.const.ADMIN_URL}>/assets/lib/bootstrap/css/bootstrap.css">
-    
+    <link rel="stylesheet" href="<{$smarty.const.ADMIN_URL}>/assets/lib/bootstrap-3.3/css/bootstrap.css">
+
     <link rel="stylesheet" href="<{$smarty.const.ADMIN_URL}>/assets/stylesheets_<{$user_info.template}>/theme.css">
     <link rel="stylesheet" href="<{$smarty.const.ADMIN_URL}>/assets/lib/font-awesome/css/font-awesome.css">
-	<link rel="stylesheet" href="<{$smarty.const.ADMIN_URL}>/assets/css/other.css">
-	<link rel="stylesheet" href="<{$smarty.const.ADMIN_URL}>/assets/css/jquery-ui.css" />
-	
-    <script src="<{$smarty.const.ADMIN_URL}>/assets/lib/jquery-1.8.1.min.js" ></script>
-	<script src="<{$smarty.const.ADMIN_URL}>/assets/lib/jquery.cookie.js" ></script>
-	<script src="<{$smarty.const.ADMIN_URL}>/assets/lib/bootstrap/js/bootbox.min.js"></script>
-	<script src="<{$smarty.const.ADMIN_URL}>/assets/lib/bootstrap/js/bootstrap-modal.js"></script>
-	<script src="<{$smarty.const.ADMIN_URL}>/assets/js/other.js"></script>
-	<script src="<{$smarty.const.ADMIN_URL}>/assets/js/jquery-ui.js"></script>
+  	<link rel="stylesheet" href="<{$smarty.const.ADMIN_URL}>/assets/css/other.css">
+    <link rel="stylesheet" href="<{$smarty.const.ADMIN_URL}>/assets/css/jquery-ui.css" />
+
+    <script src="<{$smarty.const.ADMIN_URL}>/assets/lib/jquery-3.1.1.min.js" ></script>
+  	<script src="<{$smarty.const.ADMIN_URL}>/assets/lib/jquery.cookie.js" ></script>
+  	<script src="<{$smarty.const.ADMIN_URL}>/assets/lib/bootstrap-3.3/js/bootstrap.min.js"></script>
+  	<script src="<{$smarty.const.ADMIN_URL}>/assets/js/other.js"></script>
+  	<script src="<{$smarty.const.ADMIN_URL}>/assets/js/jquery-ui.js"></script>
     <!-- Demo page code -->
 
     <style type="text/css">
