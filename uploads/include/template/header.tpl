@@ -15,7 +15,7 @@
   	<link rel="stylesheet" href="<{$smarty.const.ADMIN_URL}>/assets/css/other.css">
     <link rel="stylesheet" href="<{$smarty.const.ADMIN_URL}>/assets/css/jquery-ui.css" />
 
-    <script src="<{$smarty.const.ADMIN_URL}>/assets/lib/jquery-3.1.1.min.js" ></script>
+    <script src="<{$smarty.const.ADMIN_URL}>/assets/lib/jquery-2.2.4.min.js" ></script>
   	<script src="<{$smarty.const.ADMIN_URL}>/assets/lib/jquery.cookie.js" ></script>
   	<script src="<{$smarty.const.ADMIN_URL}>/assets/lib/bootstrap-3.3/js/bootstrap.min.js"></script>
   	<script src="<{$smarty.const.ADMIN_URL}>/assets/js/other.js"></script>
@@ -29,12 +29,12 @@
             margin: 0px auto;
             margin-top: 1em;
         }
-        .brand { font-family: georgia, serif; }
-        .brand .first {
+        .navbar-brand { font-family: georgia, serif; }
+        .navbar-brand .first {
             color: #ccc;
             font-style: italic;
         }
-        .brand .second {
+        .navbar-brand .second {
             color: #fff;
             font-weight: bold;
         }

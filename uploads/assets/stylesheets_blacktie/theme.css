@@ -21,7 +21,7 @@
 }
 .body-fullscreen {
   background: #222;
-  
+
   background-position: initial initial;
   background-repeat: initial initial;
   margin: 0px;
@@ -62,8 +62,9 @@ hr {
   -webkit-box-shadow: 0px 0px 3px #000000;
   -moz-box-shadow: 0px 0px 3px #000000;
   box-shadow: 0px 0px 3px #000000;
+  border: 0;
 }
-.navbar .brand {
+.navbar .navbar-brand {
   text-shadow: none;
 }
 .navbar .navbar-inner {
@@ -300,7 +301,7 @@ a.block-heading:hover,
   width: 240px;
   position: absolute;
   float: left;
-  
+
   border-top: none;
   border-left: none;
   -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
@@ -803,7 +804,7 @@ table.table tr, table.normal tr {
 }
 
 table.table td {
-	word-break:break-all; 
+	word-break:break-all;
 	word-wrap:break-word;
 }
 

@@ -13,8 +13,8 @@
 		<link rel="stylesheet" href="<{$smarty.const.ADMIN_URL}>/assets/stylesheets_<{if $user_info}><{$user_info.template}><{else}>default<{/if}>/theme.css">
 		<link rel="stylesheet" href="<{$smarty.const.ADMIN_URL}>/assets/lib/font-awesome/css/font-awesome.css">
 
-		<script src="<{$smarty.const.ADMIN_URL}>/assets/lib/jquery-3.1.1.min.js" ></script>
-	<script src="<{$smarty.const.ADMIN_URL}>/assets/js/other.js" ></script>
+		<script src="<{$smarty.const.ADMIN_URL}>/assets/lib/jquery-2.2.4.min.js" ></script>
+		<script src="<{$smarty.const.ADMIN_URL}>/assets/js/other.js" ></script>
 
 		<!-- Demo page code -->
 
