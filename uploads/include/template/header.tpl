@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="<{$smarty.const.ADMIN_URL}>/assets/css/jquery-ui.css" />
 
     <script src="<{$smarty.const.ADMIN_URL}>/assets/lib/jquery-2.2.4.min.js" ></script>
-  	<script src="<{$smarty.const.ADMIN_URL}>/assets/lib/jquery.cookie.js" ></script>
+    <script src="<{$smarty.const.ADMIN_URL}>/assets/lib/jquery.cookie.js" ></script>
   	<script src="<{$smarty.const.ADMIN_URL}>/assets/lib/bootstrap-3.3/js/bootstrap.min.js"></script>
   	<script src="<{$smarty.const.ADMIN_URL}>/assets/js/other.js"></script>
   	<script src="<{$smarty.const.ADMIN_URL}>/assets/js/jquery-ui.js"></script>

@@ -6,11 +6,11 @@
 				</div>
 			</div>
 		</div>
-    <script src="<{$smarty.const.ADMIN_URL}>/assets/lib/bootstrap/js/bootstrap.js"></script>
+    <script src="<{$smarty.const.ADMIN_URL}>/assets/lib/bootstrap-3.3/js/bootstrap.min.js"></script>
 
 <!-- 捷径的提示 -->
 
-		<script type="text/javascript">	
+		<script type="text/javascript">
 			alertDismiss("alert-success", 3);
 			alertDismiss("alert-info", 10);
 

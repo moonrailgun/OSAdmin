@@ -1,5 +1,5 @@
 <?php
-define('ACCESS', 1); 
+define('ACCESS', 1);
 error_reporting(E_ALL ^ E_NOTICE);
 // autoload 使用常量
 define('ADMIN_BASE', dirname (__FILE__) . '/../../include');
@@ -15,7 +15,7 @@ define('TEMPLATE_CONFIGS', ADMIN_BASE . '/config/');
 define('TEMPLATE_CACHE', ADMIN_BASE . '/cache/');
 
 // OSAdmin 常量
-define('ADMIN_URL' ,'http://demo.osadmin.net/uploads');
+define('ADMIN_URL' ,'http://localhost/osadmin/uploads');
 define('ADMIN_TITLE' ,'管理后台');
 define('COMPANY_NAME' ,'OSAdmin.org');
 
@@ -55,7 +55,7 @@ $OSA_TEMPLATES = array(
 	'wintertide' => '冰雪冬季',
 );
 
-$OSADMIN_COMMAND_FOR_LOG = array(	
+$OSADMIN_COMMAND_FOR_LOG = array(
 	'SUCCESS' => '成功',
 	'ERROR' => '失败',
 	'ADD' => '增加',
