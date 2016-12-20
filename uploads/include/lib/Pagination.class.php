@@ -7,13 +7,13 @@ if(!defined('ACCESS')) {exit('Access denied.');}
 class Pagination{
 	//显示当前页的前后页数  4,5,6,七,8,9,10
 	const OFFSET=3;
-	
+
 	public static function showPager($link,&$page_no,$page_size,$row_count){
 		$url="";
 		$params="";
 		if($link != ""){
 			$pos = strpos($link,"?");
-			 
+
 			if($pos ===false ){
 				$url = $link;
 			}else{
@@ -21,12 +21,12 @@ class Pagination{
 				$params=substr($link,$pos+1);
 			}
 		}
-		 
-		$navibar = "<div class=\"pagination\"><ul>";
+
+		$navibar = "<ul class=\"pagination\">";
 		$offset=self::OFFSET;
 		//$page_size=10;
 		$total_page=$row_count%$page_size==0?$row_count/$page_size:ceil($row_count/$page_size);
-		
+
 		$page_no=$page_no<1?1:$page_no;
 		$page_no=$page_no>($total_page)?($total_page):$page_no;
 		if ($page_no > 1){
@@ -48,7 +48,7 @@ class Pagination{
 				$navibar.= "<li><a href=\" $url?$params&page_no=$i \">$i</a></li>";
 			}
 		}
-		
+
 		if ($page_no < $total_page){
 			$navibar .= "<li><a href=\"$url?$params&page_no=".($page_no+1)."\">下一页</a></li>\n <li><a href=\"$url?$params&page_no=$total_page\">末页</a></li>\n ";
 		}
@@ -58,12 +58,11 @@ class Pagination{
 		$navibar.="<li><a>共".$row_count."条</a></li>";
 		$jump ="";
 		//$jump ="<li><form action='$url' method='GET' name='jumpForm'><input type='text' name='page_no' value='$page_no'></form></li>";
-		
+
 		$navibar.=$jump;
-		$navibar.="</ul></div>";
-	
-		return $navibar;   
+		$navibar.="</ul>";
+
+		return $navibar;
 	}
 }
 ?>
-	 
